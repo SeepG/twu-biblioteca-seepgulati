@@ -5,8 +5,10 @@ public class BibliotecaApp {
         BibliotecaApp obj = new BibliotecaApp();
         System.out.println(obj.GetWelcomeMessage());
         BookList bookList = new BookList();
+        // Showing books list via getBooks method
         for (Book book : bookList.getBooks()) {
             System.out.printf("Title: %s%n",book.getName());
+            System.out.printf("Author: %s%n",book.getAuthor());
             System.out.printf("Year: %s%n", book.getPublicationYear());
         }
     }

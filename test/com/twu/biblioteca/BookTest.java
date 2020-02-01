@@ -8,8 +8,10 @@ public class BookTest {
     @Test
     public void TestBook(){
         String expectedBookName = "BookName";
+        String expectedAuthor = "YouKnewThat";
         Integer expectedPublicationYear = 2020;
-        Book book = new Book(expectedBookName,expectedPublicationYear);
+
+        Book book = new Book(expectedBookName, expectedAuthor,expectedPublicationYear);
         assertEquals(expectedBookName,book.getName());
         assertEquals(expectedPublicationYear,book.getPublicationYear());
     }
