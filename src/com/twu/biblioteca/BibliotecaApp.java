@@ -7,9 +7,7 @@ public class BibliotecaApp {
         BookList bookList = new BookList();
         // Showing books list via getBooks method
         for (Book book : bookList.getBooks()) {
-            System.out.printf("Title: %s%n",book.getName());
-            System.out.printf("Author: %s%n",book.getAuthor());
-            System.out.printf("Year: %s%n", book.getPublicationYear());
+            System.out.println(" - " + book.getName() + " | " + book.getAuthor() + " | " + book.getPublicationYear());
         }
     }
     public String GetWelcomeMessage(){
