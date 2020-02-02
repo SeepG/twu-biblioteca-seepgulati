@@ -13,10 +13,14 @@ public class BibliotecaApp {
         //display a menu options - 1) List of books when selected leads to book list
         Menu menuOptions = new Menu();
         System.out.println(menuOptions.GetMenu());
+        String optionOutput = "";
+        while(optionOutput == "" || optionOutput == Menu.InvalidOptionMessage){
+            Scanner input = new Scanner(System.in);
+            String option = input.next();
+            optionOutput = menuOptions.SelectOption(option);
+            System.out.println(optionOutput);
+        }
 
-        Scanner input = new Scanner(System.in);
-        int option = input.nextInt();
-        System.out.println(menuOptions.SelectOption(option));
     }
 
 }

@@ -27,15 +27,31 @@ public class MenuTest {
                 " - The Pragmatic Programmer: From Journeyman to Master | Andy Hunt and Dave Thomas | 1999\n" +
                 " - Cracking the Coding Interview: 189 Programming Questions and Solutions | Gayle Laakmann McDowell | 2015\n";
 
-        String actualOutput = menuOptions.SelectOption(1);
+        String actualOutput = menuOptions.SelectOption("1");
 
         assertNotNull(actualOutput);
         assertEquals(expectedOutput,actualOutput);
     }
 
-    @Test(expected = IllegalArgumentException.class)
+    @Test
     public void TestInvalidOptionSelection(){
-        String actualOutput = menuOptions.SelectOption(0);
+        String expectedOutput = "Please select a valid option! or select 0 to exit";
+        String actualOutput = menuOptions.SelectOption("2");
+        assertEquals(expectedOutput,actualOutput);
+    }
+
+    @Test
+    public void TestInvalidOptionAlphabetSelection(){
+        String expectedOutput = "Please select a valid option! or select 0 to exit";
+        String actualOutput = menuOptions.SelectOption("asdasdsa");
+        assertEquals(expectedOutput,actualOutput);
+    }
+
+    @Test
+    public void TestExitOptionSelection(){
+        String expectedOutput = "Thank you for visiting Biblioteca";
+        String actualOutput = menuOptions.SelectOption("0");
+        assertEquals(expectedOutput,actualOutput);
     }
 
 }
