@@ -5,7 +5,7 @@ public class Menu {
     public String GetMenu(){
         return "Please select an option to continue\n 1. List of books";
     }
-
+//Code is wrapped in try & catch to handle non integer user inputs
     public Integer ValidateOption(String option){
         try {
             return Integer.parseInt(option.trim());
@@ -14,7 +14,7 @@ public class Menu {
             return -1;
         }
     }
-
+//User Input cases for menu selection
     public String SelectOption(String option) {
         int intOption = ValidateOption(option);
         String optionOutput = "";
@@ -27,6 +27,7 @@ public class Menu {
                     for (Book book : bookList.getBooks()) {
                         optionOutput += " - " + book.getName() + " | " + book.getAuthor() + " | " + book.getPublicationYear() + "\n";
                     }
+                    optionOutput+="Please enter a book name to checkout";
                     return optionOutput;
                 default:
                     return InvalidOptionMessage;
