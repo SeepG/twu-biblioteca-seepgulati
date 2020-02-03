@@ -22,21 +22,40 @@ public class BibliotecaApp {
             String userOption = input.nextLine();//that captures string
             optionOutput = menuOptions.SelectOption(userOption);//accessing SelectOption and matching with User Input ?
             System.out.println(optionOutput);
+
         }
 
-        String bookName = input.nextLine();
-        while(!bookName.equals(CheckoutBook.QuitPhrase)){
-            Book checkedoutBook = checkoutBook.Checkout(bookName);
-            if(checkedoutBook != null){
-                System.out.println(CheckoutBook.ThankYouMessage);
-                String availableBooks = checkoutBook.GetAvailableBooks();
-                System.out.println(CheckoutBook.AvailableBooksMessage);
-                System.out.println(availableBooks);//list of available books
-                bookName = input.nextLine();
+        if(optionOutput.equals(Menu.ReturnOutputMessage)) {
+            String bookName = input.nextLine();
+            while (!bookName.equals(CheckoutBook.QuitPhrase)) {
+                Book returnedBook = checkoutBook.ReturnIssuedBook(bookName);
+                if (returnedBook != null) {
+                    System.out.println(CheckoutBook.ThankYouMessage);
+                    String availableBooks = checkoutBook.GetAvailableBooks();
+                    System.out.println(CheckoutBook.AvailableBooksMessage);
+                    System.out.println(availableBooks);//list of available books
+                    bookName = input.nextLine();
+                } else {
+                    System.out.println(CheckoutBook.ErrorMessage);
+                    bookName = input.nextLine();
+                }
             }
-            else{
-                System.out.println(CheckoutBook.ErrorMessage);
-                bookName = input.nextLine();
+        }
+        else if(!optionOutput.equals(Menu.QuitAppMessage)) {
+
+            String bookName = input.nextLine();
+            while (!bookName.equals(CheckoutBook.QuitPhrase)) {
+                Book checkedoutBook = checkoutBook.Checkout(bookName);
+                if (checkedoutBook != null) {
+                    System.out.println(CheckoutBook.ThankYouMessage);
+                    String availableBooks = checkoutBook.GetAvailableBooks();
+                    System.out.println(CheckoutBook.AvailableBooksMessage);
+                    System.out.println(availableBooks);//list of available books
+                    bookName = input.nextLine();
+                } else {
+                    System.out.println(CheckoutBook.ErrorMessage);
+                    bookName = input.nextLine();
+                }
             }
         }
 

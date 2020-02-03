@@ -38,4 +38,15 @@ public class CheckoutBookTest {
         String actualOutput = checkoutObject.GetAvailableBooks();
         assertEquals(expectedOutput,actualOutput);
     }
+
+    @Test
+    public void ReturnIssuedBook(){
+        Book expectedOutput = new Book("The Art of Computer Programming","Donald Knuth",2011);
+        checkoutObject.Checkout("The Art of Computer Programming");
+        Book actualOutput = checkoutObject.ReturnIssuedBook("The Art of Computer Programming");
+        assertNotNull(actualOutput);
+        assertEquals(expectedOutput.getName(),actualOutput.getName());
+        assertEquals(expectedOutput.getAuthor(),actualOutput.getAuthor());
+        assertEquals(expectedOutput.getPublicationYear(),actualOutput.getPublicationYear());
+    }
 }

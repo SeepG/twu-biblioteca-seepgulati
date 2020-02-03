@@ -10,7 +10,7 @@ public class CheckoutBook {
     ArrayList<Book> issuedBooks = new ArrayList<Book>();// issued book object
     ArrayList<Book> availableBooks = new ArrayList<Book>();//available book object
 
-    //Checkout method
+    //Checkout book method
     public Book Checkout(String bookName){
         Book checkedoutBook = null;
         BookList bookList = new BookList();// booklist object
@@ -26,6 +26,26 @@ public class CheckoutBook {
         }
         return checkedoutBook;
     }
+    //Return book method
+    //1. Find if the bookName is part of issuedBooks
+    // 2. If true then remove from issuedBooks and add to availableBook
+    //3. If false, then show error
+
+    public Book ReturnIssuedBook(String bookName){
+        Book returnedBook = null;
+        if(FindBookInBookList(issuedBooks,bookName)) {
+            for (Book bookItem : issuedBooks) {
+                if(bookItem.getName().equals(bookName)){
+                    issuedBooks.remove(bookItem);
+                    availableBooks.add(bookItem);
+                    returnedBook = bookItem;
+                    break;
+                }
+            }
+        }
+        return returnedBook;
+    }
+
 //Available book method displays list of available books
     public String GetAvailableBooks(){
         availableBooks = new ArrayList<Book>();
