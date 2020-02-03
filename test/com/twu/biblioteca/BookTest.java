@@ -6,6 +6,7 @@ import static org.junit.Assert.*;
 
 public class BookTest {
     @Test
+    //mock book test data
     public void TestBook(){
         String expectedBookName = "BookName";
         String expectedAuthor = "YouKnewThat";

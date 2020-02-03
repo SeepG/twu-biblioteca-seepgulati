@@ -23,18 +23,20 @@ public class BibliotecaApp {
             optionOutput = menuOptions.SelectOption(userOption);//accessing SelectOption and matching with User Input ?
             System.out.println(optionOutput);
         }
+
         String bookName = input.nextLine();
-        while(!bookName.equals("quit")){
+        while(!bookName.equals(CheckoutBook.QuitPhrase)){
             Book checkedoutBook = checkoutBook.Checkout(bookName);
             if(checkedoutBook != null){
-                System.out.println("Thank you! Enjoy the book");
+                System.out.println(CheckoutBook.ThankYouMessage);
                 String availableBooks = checkoutBook.GetAvailableBooks();
-                System.out.println("Available Books");
-                System.out.println(availableBooks);
+                System.out.println(CheckoutBook.AvailableBooksMessage);
+                System.out.println(availableBooks);//list of available books
+                bookName = input.nextLine();
             }
             else{
-                System.out.println("Sorry that book is not available, please choose a book from the list or enter quit to exit");
-                bookName = input.next();
+                System.out.println(CheckoutBook.ErrorMessage);
+                bookName = input.nextLine();
             }
         }
 

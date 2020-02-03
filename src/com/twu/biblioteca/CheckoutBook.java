@@ -3,13 +3,18 @@ package com.twu.biblioteca;
 import java.util.ArrayList;
 
 public class CheckoutBook {
-    ArrayList<Book> issuedBooks = new ArrayList<Book>();
-    ArrayList<Book> availableBooks = new ArrayList<Book>();
+    public static final String ThankYouMessage = "Thank you! Enjoy the book";
+    public static final String AvailableBooksMessage = "Available Books";
+    public static final String QuitPhrase = "quit";
+    public static final String ErrorMessage = "Sorry that book is not available, please choose a book from the list or enter quit to exit";
+    ArrayList<Book> issuedBooks = new ArrayList<Book>();// issued book object
+    ArrayList<Book> availableBooks = new ArrayList<Book>();//available book object
 
+    //Checkout method
     public Book Checkout(String bookName){
         Book checkedoutBook = null;
-        BookList bookList = new BookList();
-        ArrayList<Book> allBooks = bookList.getBooks();
+        BookList bookList = new BookList();// booklist object
+        ArrayList<Book> allBooks = bookList.getBooks();//allbooks is getting all books via getBooks method
         if(FindBookInBookList(allBooks,bookName) && !FindBookInBookList(issuedBooks,bookName)) {
             for (Book book : bookList.getBooks()) {
                 if(book.getName().equals(bookName)){
@@ -21,8 +26,9 @@ public class CheckoutBook {
         }
         return checkedoutBook;
     }
-
+//Available book method displays list of available books
     public String GetAvailableBooks(){
+        availableBooks = new ArrayList<Book>();
         BookList bookList = new BookList();
         for (Book book: bookList.getBooks()) {
            if(!FindBookInBookList(issuedBooks,book.getName())){
@@ -30,14 +36,15 @@ public class CheckoutBook {
            }
         }
         String optionOutput = "";
-        for (Book book : bookList.getBooks()) {
+        for (Book book : availableBooks) {
             optionOutput += " - " + book.getName() + " | " + book.getAuthor() + " | " + book.getPublicationYear() + "\n";
         }
-        optionOutput+="Please enter a book name to checkout";
+        optionOutput+="Please enter another book name or enter quit to exit the application";
         return optionOutput;
     }
-
+//Find method compares booklist with book name
     public boolean FindBookInBookList(ArrayList<Book> bookList, String bookName){
+        //for each bookItem of booklist compare with checkout out book name
         for(Book book : bookList){
             if(book.getName().equals(bookName)){
                 return true;

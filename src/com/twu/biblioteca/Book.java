@@ -1,27 +1,27 @@
 package com.twu.biblioteca;
 
+   //state
 public class Book {
-
     private String Name;
     private String Author;
     private Integer PublicationYear;
 
     //Constructor
-    public Book(String name, String author, Integer publicationYear){
-        Name = name;
-        Author = author;
-        PublicationYear = publicationYear;
+    public Book(String Name, String Author, Integer publicationYear){
+        this.Name = Name;
+        this.Author = Author;
+        this.PublicationYear = publicationYear;
     }
-
+    //behaviour
     public String getName() {
-        return Name;
+        return this.Name;
     }
 
     public String getAuthor() {
-        return Author;
+        return this.Author;
     }
     public Integer getPublicationYear() {
-        return PublicationYear;
+        return this.PublicationYear;
     }
 
 }
