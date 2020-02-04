@@ -14,29 +14,22 @@ public class MenuTest {
     }
     @Test
     public void TestGetMenu(){
-        String expectedOutput = "Please select an option to continue\n 1. List of books";
-
+        String expectedOutput = "Please select an option to continue\n 1. List of books \n 2. Return a book \n 0. To exit";
         String actualOutput = menuOptions.GetMenu();
         assertEquals(expectedOutput,actualOutput);
     }
 
     @Test
     public void TestSelectOption(){
-        String expectedOutput = " - The Art of Computer Programming | Donald Knuth | 2011\n" +
-                " - Clean Code: A Handbook of Agile Software Craftsmanship | Robert Cecil Martin | 2008\n" +
-                " - The Pragmatic Programmer: From Journeyman to Master | Andy Hunt and Dave Thomas | 1999\n" +
-                " - Cracking the Coding Interview: 189 Programming Questions and Solutions | Gayle Laakmann McDowell | 2015\n"+
-                "Please enter a book name to checkout";
-
+        String expectedOutput = "Please enter a book name to checkout";
         String actualOutput = menuOptions.SelectOption("1");
-
         assertNotNull(actualOutput);
         assertEquals(expectedOutput,actualOutput);
     }
 
     @Test
     public void TestInvalidOptionSelection(){
-        String expectedOutput = "Please select a valid option! or select 0 to exit";
+        String expectedOutput = "Please enter a book name to return";
         String actualOutput = menuOptions.SelectOption("2");
         assertEquals(expectedOutput,actualOutput);
     }

@@ -33,8 +33,7 @@ public class CheckoutBookTest {
         String expectedOutput = " - The Art of Computer Programming | Donald Knuth | 2011\n"+
                 " - Clean Code: A Handbook of Agile Software Craftsmanship | Robert Cecil Martin | 2008\n" +
                 " - The Pragmatic Programmer: From Journeyman to Master | Andy Hunt and Dave Thomas | 1999\n" +
-                " - Cracking the Coding Interview: 189 Programming Questions and Solutions | Gayle Laakmann McDowell | 2015\n"+
-                "Please enter another book name or enter quit to exit the application";
+                " - Cracking the Coding Interview: 189 Programming Questions and Solutions | Gayle Laakmann McDowell | 2015\n";
         String actualOutput = checkoutObject.GetAvailableBooks();
         assertEquals(expectedOutput,actualOutput);
     }
