@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71fbaf49-f739-435a-b929-8dc2c6f4b567" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/MovieList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MovieListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/CheckoutBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/CheckoutBook.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Movie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Movie.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/MovieTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/MovieTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Movie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MovieTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,7 @@
       <recent name="com.twu.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieTest">
+  <component name="RunManager" selected="JUnit.MovieListTest.returnsMovieDetailsTest">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
       <module name="biblioteca" />
@@ -105,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -114,13 +112,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BookTest" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MovieListTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.TestBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieListTest.returnsMovieDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -129,14 +127,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BookTest" />
-      <option name="METHOD_NAME" value="TestBook" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MovieListTest" />
+      <option name="METHOD_NAME" value="returnsMovieDetailsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckoutBookTest.ReturnIssuedBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieListTest.testBookList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +143,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.CheckoutBookTest" />
-      <option name="METHOD_NAME" value="ReturnIssuedBook" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MovieListTest" />
+      <option name="METHOD_NAME" value="testBookList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -185,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieListTest.returnsMovieDetailsTest" />
+        <item itemvalue="JUnit.MovieListTest" />
+        <item itemvalue="JUnit.MovieListTest.testBookList" />
         <item itemvalue="JUnit.MovieTest" />
         <item itemvalue="JUnit.MovieTest.ReturnMovieDetailsTest" />
-        <item itemvalue="JUnit.BookTest" />
-        <item itemvalue="JUnit.BookTest.TestBook" />
-        <item itemvalue="JUnit.CheckoutBookTest.ReturnIssuedBook" />
       </list>
     </recent_temporary>
   </component>
@@ -223,14 +221,14 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1580771624028" />
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580775874508">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580800349323">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1580775874508" />
-    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1580775585234">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1580800349323" />
+    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1580806902786">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1580775585234" />
+    <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1580806902786" />
     <state x="489" y="296" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1580536879818">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -243,22 +241,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1580711074797" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1580776991918">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1580800456926">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580776991918" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1580776991917">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580800456926" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1580800456924">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580776991917" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1580776991916">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580800456924" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1580800456924">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580776991916" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1580776991918">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580800456924" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1580800456925">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580776991918" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580800456925" />
     <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1580775989553">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -275,14 +273,18 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="1238" height="243" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1580775989552" />
+    <state x="418" y="118" key="RollbackChangesDialog" timestamp="1580806552187">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="418" y="118" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1580806552187" />
     <state x="141" y="0" key="SettingsEditor" timestamp="1580559122097">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1580559122097" />
-    <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580771491167">
+    <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580806599215">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1580771491167" />
+    <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1580806599215" />
     <state x="208" y="143" width="863" height="590" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580707119765">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -291,6 +293,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="174" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1580715716849" />
+    <state x="346" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1580793190060">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="346" y="13" key="refactoring.ChangeSignatureDialog/0.0.1280.800@0.0.1280.800" timestamp="1580793190060" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1580554529408">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
