@@ -27,9 +27,6 @@ public class CheckoutBook {
         return checkedoutBook;
     }
     //Return book method
-    //1. Find if the bookName is part of issuedBooks
-    // 2. If true then remove from issuedBooks and add to availableBook
-    //3. If false, then show error
 
     public Book ReturnIssuedBook(String bookName){
         Book returnedBook = null;
@@ -62,7 +59,7 @@ public class CheckoutBook {
         optionOutput+="Please enter another book name or enter quit to exit the application";
         return optionOutput;
     }
-//Find method compares booklist with book name
+//Find method conducts search operation compares booklist with book name
     public boolean FindBookInBookList(ArrayList<Book> bookList, String bookName){
         //for each bookItem of booklist compare with checkout out book name
         for(Book book : bookList){
