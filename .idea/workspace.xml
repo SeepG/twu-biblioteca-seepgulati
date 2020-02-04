@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71fbaf49-f739-435a-b929-8dc2c6f4b567" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/MovieList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MovieListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/CheckoutBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/CheckoutBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/UserInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/UserInformationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/CheckoutBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/CheckoutBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +78,7 @@
       <recent name="com.twu.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieListTest.returnsMovieDetailsTest">
+  <component name="RunManager" selected="JUnit.All in biblioteca">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
       <module name="biblioteca" />
@@ -83,6 +88,14 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in biblioteca" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="biblioteca" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -165,29 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieTest.ReturnMovieDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="biblioteca" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.twu.biblioteca.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MovieTest" />
-      <option name="METHOD_NAME" value="ReturnMovieDetailsTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in biblioteca" />
         <item itemvalue="JUnit.MovieListTest.returnsMovieDetailsTest" />
         <item itemvalue="JUnit.MovieListTest" />
         <item itemvalue="JUnit.MovieListTest.testBookList" />
         <item itemvalue="JUnit.MovieTest" />
-        <item itemvalue="JUnit.MovieTest.ReturnMovieDetailsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -221,10 +218,11 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1580771624028" />
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580800349323">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580809925058">
+      <screen x="0" y="23" width="1280" height="725" />
     </state>
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1580800349323" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1580809888926" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.725@0.23.1280.725" timestamp="1580809925058" />
     <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1580806902786">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -237,42 +235,42 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="378" y="154" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.800@0.0.1280.800" timestamp="1580544008370" />
-    <state x="264" y="2" key="CommitChangelistDialog2" timestamp="1580711074797">
+    <state x="264" y="2" key="CommitChangelistDialog2" timestamp="1580807749440">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1580711074797" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1580800456926">
+    <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1580807749440" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1580809923519">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580800456926" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1580800456924">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580809923519" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1580809923518">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580800456924" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1580800456924">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580809923518" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1580809923517">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580800456924" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1580800456925">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580809923517" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1580809923519">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580800456925" />
-    <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1580775989553">
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580809923519" />
+    <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1580808226781">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580775989553" />
-    <state width="1238" height="243" key="GridCell.Tab.1.center" timestamp="1580775989552">
+    <state width="1238" height="243" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580808226781" />
+    <state width="1238" height="243" key="GridCell.Tab.1.center" timestamp="1580808226779">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1580775989552" />
-    <state width="1238" height="243" key="GridCell.Tab.1.left" timestamp="1580775989551">
+    <state width="1238" height="243" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1580808226779" />
+    <state width="1238" height="243" key="GridCell.Tab.1.left" timestamp="1580808226777">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1580775989551" />
-    <state width="1238" height="243" key="GridCell.Tab.1.right" timestamp="1580775989552">
+    <state width="1238" height="243" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1580808226777" />
+    <state width="1238" height="243" key="GridCell.Tab.1.right" timestamp="1580808226780">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="243" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1580775989552" />
+    <state width="1238" height="243" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1580808226780" />
     <state x="418" y="118" key="RollbackChangesDialog" timestamp="1580806552187">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -281,6 +279,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1580559122097" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580807765999">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1580807765999" />
     <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580806599215">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -303,6 +305,20 @@
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1580554529408" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="book.getName()" language="JAVA" />

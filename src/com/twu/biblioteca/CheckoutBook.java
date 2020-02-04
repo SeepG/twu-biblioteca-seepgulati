@@ -4,9 +4,9 @@ import java.util.ArrayList;
 
 public class CheckoutBook {
     public static final String ThankYouMessage = "Thank you! Enjoy the book";
-    public static final String AvailableBooksMessage = "Available Books";
-    public static final String QuitPhrase = "quit";
-    public static final String ErrorMessage = "Sorry that book is not available, please choose a book from the list or enter quit to exit";
+    public static final String ErrorMessage = "Sorry that book is not available";
+    public static final String ThankYouReturnMessage = "Thank you for returning the book";
+    public static final String ErrorReturnMessage = "This is not a valid book to return";
     ArrayList<Book> issuedBooks = new ArrayList<Book>();// issued book object
     ArrayList<Book> availableBooks = new ArrayList<Book>();//available book object
 
@@ -56,7 +56,7 @@ public class CheckoutBook {
         for (Book book : availableBooks) {
             optionOutput += " - " + book.getName() + " | " + book.getAuthor() + " | " + book.getPublicationYear() + "\n";
         }
-        optionOutput+="Please enter another book name or enter quit to exit the application";
+        //optionOutput+="Please enter a book name to checkout or 0 to exit";
         return optionOutput;
     }
 //Find method conducts search operation compares booklist with book name
