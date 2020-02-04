@@ -10,7 +10,7 @@ public class MovieTest {
         String expectedMovieName = "My Name is Anthony";
         Integer expectedMovieYear = 2020;
         String expectedMovieDirector = "BlahBlah";
-        String expectedMovieRating = "1";
+        Integer expectedMovieRating = 1;
         Movie movie = new Movie(expectedMovieName, expectedMovieYear, expectedMovieDirector, expectedMovieRating);
         assertEquals(expectedMovieName,movie.getMovieName());
         assertEquals(expectedMovieYear,movie.getMovieYear());
