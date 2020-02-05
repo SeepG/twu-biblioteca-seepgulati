@@ -10,7 +10,7 @@ public class Menu {
         return "Please select an option to continue\n"+
                 "1. List of books \n"+
                 "2. List of movies \n"+
-                "3. Return a book \n "+
+                "3. Return a book \n"+
                 "0. To exit";
     }
 //Code is wrapped in try & catch to handle non integer user inputs
