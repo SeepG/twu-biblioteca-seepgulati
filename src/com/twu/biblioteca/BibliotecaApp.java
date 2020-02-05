@@ -11,6 +11,7 @@ public class BibliotecaApp {
         BibliotecaApp obj = new BibliotecaApp();
         Menu menuOptions = new Menu();
         CheckoutBook checkoutBook = new CheckoutBook();
+        CheckoutMovie checkoutMovie = new CheckoutMovie();
 
         System.out.println(obj.GetWelcomeMessage());
         //display menu options - 1) List of books when selected leads to book list
@@ -44,6 +45,18 @@ public class BibliotecaApp {
                     System.out.println(CheckoutBook.ThankYouMessage);
                 } else {
                     System.out.println(CheckoutBook.ErrorMessage);
+                    //userOption = input.nextLine();
+                }
+            }
+            else if(optionOutput.equals(Menu.CheckoutMovieOutputMessage)){
+                String getAvailableMovies = checkoutMovie.GetAvailableMovies();
+                System.out.println(getAvailableMovies);//list of available books
+                String movieName = input.nextLine();
+                Movie checkedoutMovie = checkoutMovie.Checkout(movieName);
+                if (checkedoutMovie != null) {
+                    System.out.println(CheckoutMovie.ThankYouMessage);
+                } else {
+                    System.out.println(CheckoutMovie.ErrorMessage);
                     //userOption = input.nextLine();
                 }
             }
