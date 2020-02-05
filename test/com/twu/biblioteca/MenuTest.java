@@ -14,7 +14,11 @@ public class MenuTest {
     }
     @Test
     public void TestGetMenu(){
-        String expectedOutput = "Please select an option to continue\n 1. List of books \n 2. Return a book \n 0. To exit";
+        String expectedOutput = "Please select an option to continue\n"+
+                "1. List of books \n"+
+                "2. List of movies \n"+
+                "3. Return a book \n"+
+                "0. To exit";
         String actualOutput = menuOptions.GetMenu();
         assertEquals(expectedOutput,actualOutput);
     }
@@ -29,7 +33,7 @@ public class MenuTest {
 
     @Test
     public void TestInvalidOptionSelection(){
-        String expectedOutput = "Please enter a book name to return";
+        String expectedOutput = "Please enter a movie name to checkout";
         String actualOutput = menuOptions.SelectOption("2");
         assertEquals(expectedOutput,actualOutput);
     }

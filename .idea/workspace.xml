@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71fbaf49-f739-435a-b929-8dc2c6f4b567" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/UserProfileTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/CheckoutBookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/CheckoutBookTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/MenuTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/biblioteca/com/twu/biblioteca/MenuTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/CheckoutBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/CheckoutBookTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/BibliotecaApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/CheckoutMovie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/CheckoutMovie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biblioteca/com/twu/biblioteca/UserProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/UserProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/UserProfile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/twu/biblioteca/MenuTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuTest.TestGetMenu" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CheckoutMovieTest.GetAvailableMoviesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -121,14 +126,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MenuTest" />
-      <option name="METHOD_NAME" value="TestGetMenu" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.CheckoutMovieTest" />
+      <option name="METHOD_NAME" value="GetAvailableMoviesTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuTest.TestInvalidOptionAlphabetSelection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserProfileTest.getDetailsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -137,14 +142,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MenuTest" />
-      <option name="METHOD_NAME" value="TestInvalidOptionAlphabetSelection" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.UserProfileTest" />
+      <option name="METHOD_NAME" value="getDetailsTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuTest.TestInvalidOptionSelection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserProfileTest.loginSuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -153,14 +158,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MenuTest" />
-      <option name="METHOD_NAME" value="TestInvalidOptionSelection" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.UserProfileTest" />
+      <option name="METHOD_NAME" value="loginSuccessfulTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuTest.TestSelectOption" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserProfileTest.loginUnsuccessfulTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="biblioteca" />
       <extension name="coverage">
         <pattern>
@@ -169,8 +174,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.twu.biblioteca" />
-      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.MenuTest" />
-      <option name="METHOD_NAME" value="TestSelectOption" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.UserProfileTest" />
+      <option name="METHOD_NAME" value="loginUnsuccessfulTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,10 +184,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in biblioteca" />
-        <item itemvalue="JUnit.MenuTest.TestSelectOption" />
-        <item itemvalue="JUnit.MenuTest.TestGetMenu" />
-        <item itemvalue="JUnit.MenuTest.TestInvalidOptionAlphabetSelection" />
-        <item itemvalue="JUnit.MenuTest.TestInvalidOptionSelection" />
+        <item itemvalue="JUnit.UserProfileTest.getDetailsTest" />
+        <item itemvalue="JUnit.UserProfileTest.loginUnsuccessfulTest" />
+        <item itemvalue="JUnit.UserProfileTest.loginSuccessfulTest" />
+        <item itemvalue="JUnit.CheckoutMovieTest.GetAvailableMoviesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,10 +221,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="104" y="62" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1580771624028" />
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580811380624">
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1580903249068">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1580811380624" />
+    <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1280.800@0.0.1280.800" timestamp="1580903249068" />
     <state x="100" y="100" width="1080" height="600" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1280.725@0.23.1280.725" timestamp="1580809925058" />
     <state x="453" y="108" key="#com.intellij.ide.util.MemberChooser" timestamp="1580806902786">
       <screen x="0" y="0" width="1280" height="800" />
@@ -237,22 +242,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1580807749440" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1580811393559">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1580903097499">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580811393559" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1580811393557">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1580903097499" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1580903097498">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580811393557" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1580811393556">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1580903097498" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1580903097497">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580811393556" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1580811393558">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1580903097497" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1580903097498">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580811393558" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1580903097498" />
     <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1580808226781">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -277,22 +282,26 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="141" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1580559122097" />
-    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580807765999">
+    <state x="490" y="323" key="VCS.ChangelistChooser" timestamp="1580901882441">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1580807765999" />
-    <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580806599215">
+    <state x="490" y="323" key="VCS.ChangelistChooser/0.0.1280.800@0.0.1280.800" timestamp="1580901882441" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580890592687">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1580806599215" />
+    <state x="423" y="324" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1580890592687" />
+    <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1580901339501">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="398" y="134" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1280.800@0.0.1280.800" timestamp="1580901339501" />
     <state x="208" y="143" width="863" height="590" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1580707119765">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="208" y="143" width="863" height="590" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.800@0.0.1280.800" timestamp="1580707119765" />
-    <state x="378" y="174" key="extract.method.dialog" timestamp="1580715716849">
+    <state x="378" y="174" key="extract.method.dialog" timestamp="1580901898441">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="378" y="174" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1580715716849" />
+    <state x="378" y="174" key="extract.method.dialog/0.0.1280.800@0.0.1280.800" timestamp="1580901898441" />
     <state x="346" y="13" key="refactoring.ChangeSignatureDialog" timestamp="1580793190060">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -305,16 +314,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="27" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/test/com/twu/biblioteca/CheckoutBookTest.java</url>
           <line>37</line>
