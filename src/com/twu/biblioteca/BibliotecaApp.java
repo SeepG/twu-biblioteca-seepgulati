@@ -17,7 +17,7 @@ public class BibliotecaApp {
         System.out.println(obj.GetWelcomeMessage());
         String optionOutput = ""; //initialising optionOutput to empty string so that it is not null
 
-
+// till quit message doesn't come, user is kept in while loop
         while(!optionOutput.equals(Menu.QuitAppMessage)){
             if(!optionOutput.equals(Menu.InvalidOptionMessage)) {
                 System.out.println(menuOptions.GetMenu()); //accessing getMenu return
@@ -72,12 +72,12 @@ public class BibliotecaApp {
         System.out.println(optionOutput);
         String availableBooks = checkoutBook.GetAvailableBooks();
         System.out.println(availableBooks);//list of available books
-        String bookName = input.nextLine();
+        String bookName = input.nextLine();// waiting for user input
         Book checkedoutBook = checkoutBook.Checkout(bookName);
         if (checkedoutBook != null) {
             System.out.println(CheckoutBook.ThankYouMessage);
         } else {
-            System.out.println(CheckoutBook.ErrorMessage);
+            System.out.println(CheckoutBook.ErrorMessage);// if null error message
         }
     }
 

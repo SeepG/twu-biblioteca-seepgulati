@@ -10,7 +10,7 @@ public class CheckoutBook {
     ArrayList<Book> issuedBooks = new ArrayList<Book>();// issued book object
     ArrayList<Book> availableBooks = new ArrayList<Book>();//available book object
 
-    //Checkout book method
+    //Checkout book method checks book is in available books and not in issued books
     public Book Checkout(String bookName){
         Book checkedoutBook = null;
         BookList bookList = new BookList();// booklist object
