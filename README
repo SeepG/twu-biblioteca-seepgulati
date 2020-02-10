@@ -1,29 +1,30 @@
-Instructions to push your code to code.google.com
-=================================================
-1. Sign into GitHub and create a new repository
-        Repository name: twu-biblioteca-yourname
-        Privacy level: Public
-        Don't check "Initialize this repository with a README"
-        Add .gitignore: None
-        Add a license: Apache License 2.0
 
-2. Run 'git init' in the folder that was extracted from the downloaded .zip file, in order to
- initialize local repository.
+Biblioteca is Library Management System which is used to manage the library operations. The operations are following:
 
-3. Make a local commit.
-    $ git add -A
-    $ git commit -m “Initial commit”
+[1] List All Books/Movies from Library
+[2] Check Out books/movies from Library
+[3] Return Books to Library
+[4] List of Users who checked out items from library
 
-(Dont forget to add the hidden .idea folder, as it will make opening your project in Intellij easier.)
+Requirements
+[1] IntelliJ IDEA (JUnit (in-built)
+[2] JDK 7
 
-4. After you are done with the local commit, you can share your code with "The World" by pushing it to your
- GitHub repository.
-    $ git remote add origin https://github.com/<YOUR-GITHUB-USERNAME>/twu-biblioteca-<YOURNAME>
-    $ git push origin master
+Installation guidelines
 
-Instructions to open your code in Intellij
-==========================================
-1. Go to File -> Open (or Open Project)
-2. Select the directory containing the code
-DONE !
+Clone from my github and move into directory
 
+- https://github.com/SeepG/twu-biblioteca-seepgulati.git
+- cd twu-Biblioteca-master
+- Go to File -> Open (or Open Project)
+- Select the directory containing the code
+
+Run
+- Go to 'BibliotecaApp' near build icon on top ribbon and click on play button next to it, it should display following:
+
+Welcome to Biblioteca. Your one-stop-shop for great book titles in Bangalore!
+Please select an option to continue
+1. List of books
+2. List of movies
+3. Return a book
+0. To exit
