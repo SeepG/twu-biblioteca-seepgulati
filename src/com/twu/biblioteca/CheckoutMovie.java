@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class CheckoutMovie {
     public static final String ThankYouMessage = "Thank you! Enjoy the movie";
     public static final String ErrorMessage = "Sorry that movie is not available";
-    public static final String ThankYouReturnMessage = "Thank you for returning the movie";
-    public static final String ErrorReturnMessage = "This is not a valid movie to return";
+//    public static final String ThankYouReturnMessage = "Thank you for returning the movie"; no return functionality
+//    public static final String ErrorReturnMessage = "This is not a valid movie to return";
     public static final String UnratedMovie = "Unrated";
 
     ArrayList<Movie> issuedMovies = new ArrayList<Movie>();// issued movie object
