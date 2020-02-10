@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="71fbaf49-f739-435a-b929-8dc2c6f4b567" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/BibliotecaApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/CheckoutBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/CheckoutBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/twu/biblioteca/CheckoutMovie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/twu/biblioteca/CheckoutMovie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +71,7 @@
       <recent name="com.twu.biblioteca" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.twu.biblioteca in biblioteca">
+  <component name="RunManager" selected="Application.BibliotecaApp">
     <configuration name="BibliotecaApp" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.twu.biblioteca.BibliotecaApp" />
       <module name="biblioteca" />
@@ -234,22 +232,22 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="264" y="2" key="CommitChangelistDialog2/0.0.1280.800@0.0.1280.800" timestamp="1580807749440" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1581123099387">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1581334847764">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581123099387" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1581123099386">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1581334847764" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1581334847763">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581123099386" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1581123099385">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1581334847763" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1581334847762">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581123099385" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1581123099386">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1581334847762" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1581334847764">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581123099386" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1581334847764" />
     <state width="1238" height="243" key="GridCell.Tab.1.bottom" timestamp="1580808226781">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
